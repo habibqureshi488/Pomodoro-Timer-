@@ -1,0 +1,69 @@
+body {
+    box-sizing: border-box;
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(164, 27, 255), rgb(255, 27, 187), rgb(6, 10, 248), rgb(0, 0, 0));
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* box-shadow: inset 0 0 0 0.5rem rgba(0, 0, 0, 0.5); */
+    /* Adjust other styles as needed */
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+
+.container{
+    background-color: black;
+    color: gold;
+    text-align: center;
+    display: block;
+    align-items: center;
+    margin-top: 15%;
+    margin-left: 33%;
+    justify-content: center;
+    width: 380px;
+    border-radius: 15px;
+    height: 28ch;
+    /* box-shadow: */
+    /* box-shadow: ; */
+    box-shadow: (0 ,0 ,0 , 0.5);
+    /* margin-bottom: 10px; */
+}
+
+.header{
+    border-top-right-radius: 15;
+    border-top-left-radius: 15;
+    background-color: gold;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.timer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+#start{
+    background-color:lime ;
+    color: black;
+    padding: 8px;
+    width: 70px;
+}
+#stop{
+    background-color:rgb(255, 2, 2) ;
+    color: black;
+    padding: 8px;
+    width: 70px;
+}
+#reset{
+    background-color:aqua ;
+    color: black;
+    padding: 8px;
+    width: 70px;
+}
+
+.btn{
+    margin-bottom: 2%;
+}
